@@ -1,0 +1,55 @@
+html, body {
+    height: 100%;
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+input[type=submit] {
+    background-color: #007bff !important;
+    width: 50% !important;
+}
+
+.social-icon {
+    height: auto;
+    width: 3.5vw;
+    margin: 0 15px 0 15px;
+}
+
+.follow-btn {
+    width: 50% !important;
+}
+
+.follow-column {
+    text-align: center;
+}
+
+@media (max-width: 768px) {
+    html, body {
+        height: 100%;
+        max-width: 100%;
+        overflow-x: hidden;
+    }
+}
+
+.wp-pagenavi {
+    clear: both;
+}
+
+.wp-pagenavi a, .wp-pagenavi span {
+    color: #FFF;
+    text-decoration: none;
+    background-color: #6FB7E9;
+    border: 1px solid #B2D1E5;
+    padding: 5px 5px;
+    margin: 2px;
+}
+
+.wp-pagenavi a:hover, .wp-pagenavi span.current {
+    border-color: #E9F2F9;
+    background-color: #6FB7E9;
+}
+
+.wp-pagenavi span.current {
+    font-weight: bold;
+    background-color: #3C8DC5;
+}

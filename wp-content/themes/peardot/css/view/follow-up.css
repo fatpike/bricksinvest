@@ -1,0 +1,247 @@
+.follow-up-heading {
+    /*border: 5px solid green;*/
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+.main {
+    /*border: 5px solid red;*/
+    margin-left: 25%;
+    margin-right: 25%;
+}
+
+.follow-up-main {
+    /*border: 5px solid blue;*/
+    margin-bottom: 5%;
+}
+
+.follow-up-main > h1 {
+    font-weight: bold;
+    font-size: 4.3rem;
+}
+
+.follow-up-heading p {
+    font-size: 1.4rem;
+}
+
+
+.follow-up-main > h2 {
+    font-weight: bold;
+    font-size: 3.5rem;
+}
+
+.follow-up-main > h3 {
+    font-weight: bold;
+    font-size: 2.5rem;
+}
+
+.third-text {
+    font-size: 1.3rem !important;
+}
+
+.follow-up-info > p {
+    padding-top: 4%;
+}
+
+.follow-up-cta > h2 {
+    /*border: 5px solid yellow;*/
+    padding-bottom: 3%;
+}
+
+.follow-up-cta > h3 {
+    padding-bottom: 1%;
+}
+
+
+.follow-up-list > h3 {
+    margin-bottom: 2%;
+}
+
+.follow-up-list > ul > li {
+    margin-bottom: 2%;
+    font-size: 1.3rem;
+    margin-left: -20px;
+}
+
+.follow-up-list > ul > li:before {
+    content: '>';
+    margin-left: -20px;
+    margin-right: 10px;
+}
+
+.custom-file-input:lang(en) ~ .custom-file-label::after {
+    content: '\21A7';
+}
+
+.form-control:disabled {
+    border-radius: 0;
+    background-color: white;
+    border: 2px solid black;
+    height: 5vh;
+    font-size: 1.5rem;
+    margin: auto;
+    padding: 10px;
+
+}
+
+.input-group-text {
+    border-radius: 0;
+    color: green;
+    background-color: white;
+    border: 2px solid black;
+    height: 5vh;
+    width: 5vh;
+    text-align: center;
+}
+
+.accordion {
+    background-color: white;
+    font-weight: bold;
+    font-size: 1.5rem;
+    cursor: pointer;
+    /*padding: 18px;*/
+    margin-bottom: 10px;
+    /*width: 100%;*/
+    text-align: left;
+    border: none;
+    outline: none;
+    transition: 0.4s;
+}
+
+.accordion:active, .accordion:hover {
+    border: none;
+    outline: none;
+}
+
+.panel {
+    padding: 0 18px;
+    background-color: white;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+}
+
+.panel > p {
+
+    font-size: 1.5rem;
+    width: 100%;
+    padding-left: 1%;
+}
+
+.accordion:before {
+    content: '+ ';
+    float: left;
+    margin-left: 5px;
+    white-space: pre;
+    font-size: 1.5rem;
+}
+
+.collapse-active:before {
+    content: "- ";
+    font-size: 1.5rem;
+    white-space: pre;
+}
+
+div.follow-up-team > div.container > div.row > div.col-4 > div.card {
+    border: none;
+    border-radius: 0;
+}
+
+div.follow-up-team > div.card > div.card-body {
+    padding: 0;
+
+}
+
+.team-text {
+    margin-top: 3%;
+    margin-bottom: 1%;
+}
+
+h3.card-title {
+    font-weight: bold;
+}
+
+.follow-up-team > .container > .row {
+    margin-bottom: 10%;
+}
+
+.team-single {
+    /*border: 5px solid darkcyan;*/
+    width: 35%;
+    margin-bottom: 5%;
+}
+
+h4.team-name {
+
+    font-weight: bold;
+    margin-top: 10px;
+
+}
+
+p.team-text {
+    /*border: 5px solid purple;*/
+    font-size: 1.4rem;
+    padding-bottom: 0;
+}
+
+p.team-icons {
+    margin-top: 0;
+}
+
+@media (max-width: 768px) {
+    .main {
+        /*border: 5px solid darkred;*/
+        width: 100%;
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    .follow-up-main > h1 {
+        font-weight: bold;
+        font-size: 3rem;
+    }
+
+    .follow-up-heading p {
+        font-size: 1.2rem;
+    }
+
+
+    .follow-up-main > h2 {
+        font-weight: bold;
+        font-size: 2.8rem;
+    }
+
+    .follow-up-main > h3 {
+        font-weight: bold;
+        font-size: 2.3rem;
+    }
+
+    .quote > h3 {
+        font-size: 1.2rem;
+    }
+
+    .follow-up-cta button.btn-secondary {
+        margin-left: 10%;
+    }
+
+    iframe {
+        width: 100%;
+        height: 250px;
+    }
+
+    .follow-up-list > ul > li {
+        font-size: 1.1rem;
+    }
+
+    .follow-up-list > button {
+        margin-left: 10%;
+    }
+
+    .follow-up-qna > button.accordion {
+        font-size: 1.2rem;
+    }
+
+    div.panel > p {
+        font-size: 1rem;
+    }
+}

@@ -1,0 +1,19 @@
+/* 1. CHANGE H2 FONT-SIZE */
+h1 {
+    font-size: 5.5rem !important;
+}
+
+/* 2. CHANGE LOGO SIZE */
+.navbar-logo {
+    width: 100% !important;
+}
+
+/* 3. CHANGE FONT-FAMILY */
+@font-face {
+    font-family: OpenSans;
+    src: url("../font/OpenSans-Regular.ttf");
+}
+
+html * {
+    font-family: OpenSans, serif !important;
+}

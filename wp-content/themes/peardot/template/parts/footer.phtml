@@ -1,0 +1,43 @@
+<footer class="site-footer">
+    <div class="container">
+        <div class="row">
+
+
+            <div class="col-sm-11 col-md-5">
+                <p class="text-justify">
+                    <i>LOREM IPSUM</i>
+                    Dolor sit amet, consectetur adipiscing elit.
+                    Etiam non finibus nisl. Duis facilisis ullamcorper lorem quis aliquet.
+                    Integer maximus nec magna sit amet rutrum. Donec ac nulla eget lectus posuere suscipit nec eget
+                    ligula.
+                </p>
+                <button type="button" class="btn btn-secondary btn-lg btn-block" style="width: 100%;">GRATIS WAARDEBEPALING</button>
+            </div>
+
+            <div class="col-xs-3 col-md-1">
+                <img src="https://via.placeholder.com/80" alt="">
+
+            </div>
+
+            <div class="col-xs-4 col-md-3">
+                <?php
+                wp_nav_menu(array(
+                    'theme_location' => 'footer-menu',
+                    'container_class' => 'custom-menu-class'));
+                ?>
+            </div>
+
+            <div class="col-xs-6 col-md-3">
+                <ul class="info-list">
+                    <li>Bricks Invest</li>
+                    <li>Symfonielaan 20 22</li>
+                    <li>3438 EV Nieuwegein</li>
+                    <li>T +31 30 207 21 30</li>
+                    <li>info@bricksinvest.nl</li>
+                </ul>
+            </div>
+
+        </div>
+        <hr>
+    </div>
+</footer>

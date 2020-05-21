@@ -1,0 +1,152 @@
+.contact-heading {
+    /*border: 5px solid green;*/
+    padding-top: 5%;
+    /*padding-bottom: 5%;*/
+}
+
+.contact-main {
+    /*border: 5px solid red;*/
+    margin-left: 5%;
+}
+
+.contact-main > h1 {
+    font-weight: bold;
+    font-size: 4.3rem;
+}
+
+.contact-main > p {
+    /*border: 5px solid darkcyan;*/
+    font-size: 1.4rem;
+    padding-bottom: 5%;
+}
+
+
+.contact-main > h2 {
+    font-weight: bold;
+    font-size: 3.5rem;
+}
+
+.contact-main > h3 {
+    font-weight: bold;
+    font-size: 2.5rem;
+}
+
+.contact-header {
+    /*border: 5px solid pink;*/
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.contact-question {
+    margin-top: 2%;
+}
+
+.contact-question > p {
+    font-size: 2rem;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.columns {
+    /*border: 5px solid purple;*/
+    padding-top: 5%;
+    padding-bottom: 5%;
+    background-color: #E9ECEF;
+    margin-right: 0 !important;
+}
+
+
+.column-left {
+    /*border: 5px solid orange;*/
+    padding-left: 10%;
+    float: left;
+}
+
+.column-left > h3 {
+    font-weight: bold;
+    font-size: 2.6rem;
+}
+
+.column-left > ul > li {
+    font-size: 1.4rem;
+}
+
+.column-left > .info-title {
+    font-weight: bold;
+    font-size: 1.3rem;
+}
+
+.column-right {
+    /*border: 5px solid orange;*/
+    float: left;
+
+}
+
+.column-right > h2 {
+    font-weight: bold;
+}
+
+.contact-form {
+    /*border: 5px solid cyan;*/
+    margin-top: 20px;
+    margin-right: 20%;
+}
+
+.contact-form > form > label {
+    margin-bottom: 0;
+}
+
+.contact-form > form > label > input {
+    margin-top: 0;
+}
+
+
+input[type=text], input[type=tel], input[type=email] {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+
+input[type=submit] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 600px) {
+
+    .contact-main > h1 {
+        font-weight: bold;
+        font-size: 3rem;
+    }
+
+    .contact-main p {
+        font-size: 1.2rem;
+    }
+
+    .column-left, .column-right {
+        width: 100%;
+    }
+
+    .columns {
+        padding-top: 1%;
+        padding-bottom: 20%;
+    }
+
+    .column-right {
+        padding-left: 10%;
+    }
+}
+
+#gform_submit_button_1 {
+    width: 96%;
+}
